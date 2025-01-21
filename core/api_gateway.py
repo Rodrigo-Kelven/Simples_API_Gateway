@@ -7,6 +7,9 @@ app = FastAPI()
 SERVICE_A_URL = "http://localhost:8001"
 SERVICE_B_URL = "http://localhost:8002"
 
+# separar as apis em um controller onde cada pasta/arquivo sera a chamada de cada api
+# deixar o arquivo main apenas para chamar e rodar a API_Getaway
+
 @app.get("/service-a/{item_id}")
 async def get_service_a(item_id: int):
     async with httpx.AsyncClient() as client:
