@@ -92,3 +92,25 @@ Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-s
 - ### Feedback do Usuário:
     - Colete feedback dos usuários da API para identificar áreas de melhoria e novas funcionalidades que podem ser adicionadas.
 
+
+## Documentação da API
+
+#### Rota da API Service_a
+
+```http
+  GET /service-a/{item_id}
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `Ex: 1` | `int` | **Obrigatório**. Passagem de número inteiro |
+
+#### Rota da API Service_b
+
+```http
+  GET /service-b/{item_id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `Ex: 2`      | `int` | **Obrigatório**. Passagem de número inteiro |
