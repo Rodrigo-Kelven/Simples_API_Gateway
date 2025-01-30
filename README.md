@@ -33,17 +33,24 @@
 ```bash
   git clone https://github.com/Rodrigo-Kelven/Simples_API_Gateway
   cd Simples_API_Gateway
-  pip install -r requirements.txt
+  docker-compose up --build
 ```
-### Atençao a esta parte! Ela é crucial para o funcionamento da API.
-```bash
-  Você terá que subir 3 instâncias, por que? 
-  Porque o service_a e o service_b são dois serviços diferentes.
-  Então abra 3 janelas no seu terminal e excute esta sequência de comandos.
-  uvicorn api_gateway:app --host 0.0.0.0 --port 8000
-  uvicorn service_a:app --host 0.0.0.0 --port 8001
-  uvicorn service_b:app --host 0.0.0.0 --port 8002
-```
+
+## Acesse as aplicações nos seguintes URLs:
+
+    Service A: http://localhost:8000/docs#/
+    Service B: http://localhost:8001/docs#/
+    Service C: http://localhost:8002/docs#/
+
+## Para testar a rota do API Gateway que chama o Service A, você pode acessar:
+
+    http://localhost:8080/service_a/items
+
+## Para testar a rota do API Gateway que chama o Service B, você pode acessar:
+
+    http://localhost:8080/service_b
+
+
 
 # Contribuições
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um issue ou enviar um pull request.;)
