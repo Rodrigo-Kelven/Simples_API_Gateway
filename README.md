@@ -1,5 +1,9 @@
 
 # Simples API Gateway com FastAPI
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![FastAPI](https://img.shields.io/badge/FastAPI-%23FF4F00.svg?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+
 
 ***"Construir um simples API Gateway com FastAPI é uma tarefa bastante direta. O FastAPI é um framework moderno e rápido para construir APIs com Python, e ele é ideal para criar um API Gateway devido à sua simplicidade e desempenho."***
 
